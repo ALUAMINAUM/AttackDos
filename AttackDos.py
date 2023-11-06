@@ -20,7 +20,7 @@ bytes = random._urandom(1490)
 os.system("clear")
 os.system("figlet ATTACK TOOLS DOS")
 print
-    print "-------------------PROFIL CREATOR SCRIPT TERMUX DDOS-------------------- "
+    print "-------------------PROFIL CREATOR SCRIPT TERMUX DDOS--------------------"
     print "NAMA KETUA KELOMPOK : VANNEZZ × JAVA 
     print "NOMOR WHATSAPP      : +6285171197674 / REPUBLIK INDONESIA'
     print "ORGANISASI          : DARK HAT YOGYAKARTA"
